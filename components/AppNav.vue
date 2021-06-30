@@ -26,7 +26,7 @@
     </ul>
     <form class="form-inline my-2 my-lg-0 position-relative">
       <input class="form-control nav-input mr-sm-2" type="search" placeholder="Search" aria-label="Search for health questions">
-      <i class="text-gray text-muted position-absolute mr-3 fa fa-search"></i>
+      <i class="text-gray text-muted search-icon position-absolute mr-3 fa fa-search"></i>
     </form>
   </div>
     </div>
@@ -39,5 +39,8 @@
 .nav-btn{
   width: 80px;
   line-height: 2px !important;
+}
+.search-icon{
+  right:0;
 }
 </style>
