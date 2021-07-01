@@ -28,7 +28,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .sign-up__wrap{
     height: 100vh;
 }

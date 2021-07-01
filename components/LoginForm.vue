@@ -19,7 +19,7 @@
         </p>
 
         <div class="mt-4">
-            <button type="submit" class="btn btn-block btn-primary">Login</button>
+            <button type="submit" class="btn btn-block btn-primary">Reset password</button>
         </div>
     </form>
   </div>
