@@ -3,11 +3,9 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-12">
-        <div class="h-100 d-flex align-items-md-center">
-          <div>
-            <h1>Join Nigeria fastest growing (AMR/AMU) Community!</h1>
+        <div class="h-100 d-flex align-items-md-center flex-column justify-content-center">
+          <h1>Join Nigeria fastest growing (AMR/AMU) Community!</h1>
           <p>The National One Health Antimicrobial Resistance/Antimicrobial Usage (AMR/AMU) Community of Practice (CoP) is an online community that aids users and members to interact and share resources regarding AMR in the country. </p>
-          </div>
           <div class="w-100">
             <div class="btn btn-primary">Join Our Community</div>
           </div>
