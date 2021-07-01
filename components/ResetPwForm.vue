@@ -18,7 +18,7 @@
 
 <script>
 export default {
-    name: 'Reset-password-form',
+    name: 'password-reset-form',
 }
 </script>
 

@@ -23,7 +23,7 @@
 
 <script>
 export default {
-    name:'Signin',
+    name:'request-pw-page',
     layout: 'user',
 }
 </script>

@@ -23,7 +23,7 @@
 
 <script>
 export default {
-    name:'Signin',
+    name:'reset-password',
     layout: 'user',
 }
 </script>

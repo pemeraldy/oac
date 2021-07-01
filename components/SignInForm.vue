@@ -27,7 +27,7 @@
 
 <script>
 export default {
-    name: 'signin-form',
+    name: 'reset-pw-form',
 }
 </script>
 
