@@ -1,4 +1,3 @@
-<!-- Please remove this file from your project -->
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-primary">
     <div class="container">
