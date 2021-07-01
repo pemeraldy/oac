@@ -1,11 +1,6 @@
 <template>
   <div class="w-100">
     <form>
-        <div class="form-group">
-            <label for="username">Username*</label>
-            <input type="email" class="form-control p-4" id="username" placeholder="@example" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">*May only contain letters, numbers or underscores "_".</small>
-        </div>
         <div class="form-group required">
             <label for="useremeail">Email addresss*</label>
             <input type="text" class="form-control p-4" placeholder="example@gmail.com" id="useremeail">
@@ -42,7 +37,7 @@
 
 <script>
 export default {
-    name: 'login-form',
+    name: 'Signin-form',
 }
 </script>
 
