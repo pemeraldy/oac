@@ -3,7 +3,7 @@
     <form>
         <div class="form-group">
             <label for="username">Username*</label>
-            <input type="email" class="form-control p-4" id="username" aria-describedby="emailHelp">
+            <input type="email" class="form-control p-4" id="username" placeholder="@example" aria-describedby="emailHelp">
             <small id="emailHelp" class="form-text text-muted">*May only contain letters, numbers or underscores "_".</small>
         </div>
         <div class="form-group required">
@@ -52,5 +52,8 @@ form{
 }
 .btn.btn-block.btn-primary, .btn-outline-dark{
     height: 48px;
+}
+.form-group input[type=text].form-control{
+    border: 1px solid #D9D9D9;
 }
 </style>
