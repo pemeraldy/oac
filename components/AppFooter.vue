@@ -20,10 +20,23 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .app-footer{
     padding-top: 90px;
     /* padding-bottom: 90px; */
+}
+.footer-header{
+    /* font-family: 'SFProDisplay'; */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.footer-para{
+    font-size: 20px;
+    font-weight: 400;
 }
 hr.h-rule{
     border-top: 0.4px solid #fff;
@@ -31,7 +44,10 @@ hr.h-rule{
 }
 @media screen and (max-width: 500px) {
  .footer-header{
-     font-size: 26px;
+     font-size: 32px;
  }   
+ .footer-para{
+     font-size: 16px;
+ }
 }
 </style>

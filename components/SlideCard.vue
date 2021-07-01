@@ -1,5 +1,5 @@
 <template>
-  <div class="slide-card p-4">
+  <div class="slide-card flex-shrink-0 p-4">
       <h1 class="slide-heading">
           Antibiotic Awareness
       </h1>
@@ -30,7 +30,7 @@ export default {
     max-height: 220px;
 }
 .slide-heading{
-    /* font-family: Apercu; */
+    font-family: 'SFProDisplay';
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
