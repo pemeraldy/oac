@@ -47,7 +47,7 @@ hr.h-rule{
      font-size: 32px;
  }   
  .footer-para{
-     font-size: 16px;
+     font-size: 20px;
  }
 }
 </style>
