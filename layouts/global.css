@@ -33,6 +33,6 @@
     font-style: normal;
     font-display: swap;
 }
-.html{
+.html,body, .container, div{
     font-family:'SFProDisplay';
 }

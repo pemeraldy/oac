@@ -30,7 +30,7 @@ export default {
     max-height: 220px;
 }
 .slide-heading{
-    /* font-family: Apercu; */
+    font-family: 'SFProDisplay';
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
