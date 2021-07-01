@@ -13,7 +13,7 @@
       </div>
       <div class="col-md-6 col-12">
         <div>
-          <img src="~/assets/images/hero-doc.png" alt="Nigerian">
+          <img class="hero-image" src="~/assets/images/hero-doc.png" alt="Nigerian">
         </div>
       </div>
     </div>
@@ -27,5 +27,8 @@
 .nav-btn{
   width: 80px;
   line-height: 2px !important;
+}
+.hero-image{
+  width: 100%;
 }
 </style>

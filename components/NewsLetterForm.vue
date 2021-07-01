@@ -35,5 +35,6 @@ export default {
     border-radius: 90px;
     top: 13%;
     right: 10px;
+    text-transform: uppercase;
 }
 </style>

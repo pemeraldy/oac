@@ -3,7 +3,7 @@
       <div class="container">
           <h1 class="text-center text-white">Join our community & stay updated.</h1>
             <p class="text-center text-white">No Spam. Only sweet content and updates of our products.</p>
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center py-5">
                 <NewsLetterForm />
             </div>            
             <hr class="h-rule">      
