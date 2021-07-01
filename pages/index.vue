@@ -6,9 +6,9 @@
     <section class="details">
     <Details />
     <Steps />
-
     </section>
-
+    <LatestPosts />
+    <AppFooter />    
   </div>
 </template>
 
