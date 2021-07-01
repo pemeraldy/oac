@@ -5,13 +5,13 @@
                 <div class="col-12">
                     <div class="mt-5"></div>
                     <div class="welcom-msg d-flex align-items-center justify-content-center flex-column">
-                        <h1 class="text-center">Welcome Back</h1>
-                        <p class="text-center">Hi friend, we've missed you! Thanks for coming back. 😊</p>
+                        <h1 class="text-center">Reset your password</h1>
+                        <p class="text-center">The verification email will be sent to your mailbox. Please check it.</p>
                     </div>
                     <div class="mt-5"></div>
                     <div class="d-flex justify-content-center">
-                        <div class="form-wrap bg-white rounded p-4">
-                            <SignInForm />
+                        <div class="form-wrap bg-white rounded p-5">
+                            <ResetPwForm />
                         </div>
                     </div>
                 </div>
