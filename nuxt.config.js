@@ -21,7 +21,8 @@ export default {
   css: [
     '~/assets/stylesheets/fontawesome/css/font-awesome.min.css',
     // '~/assets/stylesheets/styles-admin.scss',
-    '~/assets/scss/custom.scss'
+    '~/assets/scss/custom.scss',
+    '~/layouts/global.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
