@@ -37,14 +37,12 @@ export default {
     padding-bottom: 188px;
 }
 .steps-text{
-    
     font-size: 26px;
     font-style: normal;
     font-weight: 300;
     line-height: 48px;
     letter-spacing: 0em;
     text-align: center;
-
 }
 @media screen and (max-width: 500px) {
     .steps{
