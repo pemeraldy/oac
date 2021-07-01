@@ -15,7 +15,7 @@
         </div>
 
         <p class="text-center my-4">
-            <nuxt-link to="/">Forgot Password?</nuxt-link>
+            <nuxt-link class="text-muted" to="/">Forgot Password?</nuxt-link>
         </p>
 
         <div class="mt-4">
