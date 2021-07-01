@@ -37,4 +37,15 @@ export default {
     right: 10px;
     text-transform: uppercase;
 }
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+    .news-letter{
+        height: 60px;
+    }
+    .news-letter button{
+        height: 44px;
+        width: 100px;
+    }
+}
 </style>

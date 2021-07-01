@@ -41,4 +41,13 @@ export default {
     color: #202020;
     opacity: 0.8;
 }
+@media screen and (max-width: 500px) {
+    .slide-card{
+        max-width: 290px;
+        flex-shrink: 0;
+    }
+    .slide-card span{
+        font-size: 10px;
+    }
+}
 </style>

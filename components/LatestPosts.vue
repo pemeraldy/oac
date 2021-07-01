@@ -6,9 +6,10 @@
                 <h1>Latest Events</h1>
                 <p>Catch up with all the lastest event published by different people across the country.</p>
               </div>
-              <div class="d-flex slides">
-                  <SlideCard class="mr-5"/>
-                  <SlideCard />
+              <div class="d-flex slides-wrap">
+                  <SlideCard class="mr-2 mr-md-4"/>
+                  <SlideCard class="mr-2 mr-md-4" />
+                  <SlideCard class="mr-2 mr-md-4" />
               </div>
               <div class="slide-control">
                   <img src="~/assets/images/icons/next-btn.png" alt="next button">
@@ -36,5 +37,17 @@ export default {
     right: -90px;
     top: 50%;
     cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+    .lastest-wrapper{
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 0;
+        margin-top: 30px;
+        overflow-x:hidden ;
+    }
+    .slides-wrap{
+        overflow-x:scroll
+    }
 }
 </style>
