@@ -26,7 +26,7 @@
         <nuxt-link to="/auth/sign-up" tag="button" class="btn nav-btn btn-outline-success my-2 my-sm-0" type="submit">Sign up</nuxt-link>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0 position-relative">
+    <form v-if="$route.path !== '/community'" class="form-inline my-2 my-lg-0 position-relative">
       <input class="form-control nav-input mr-sm-2" type="search" placeholder="Search" aria-label="Search for health questions">
       <i class="text-gray text-muted search-icon position-absolute mr-3 fa fa-search"></i>
     </form>
