@@ -19,8 +19,11 @@
       <li class="nav-item mx-3">      
         <a class="nav-link text-white" href="#">About Us</a>
       </li>
-      <li class="nav-item mx-3">
-        <button class="btn nav-btn btn-outline-success my-2 my-sm-0" type="submit">Sign in</button>
+      <li v-if="$route.path === '/' || $route.path === '/auth/sign-up'  " class="nav-item mx-3">
+        <nuxt-link to="/auth/sign-in" tag="button" class="btn nav-btn btn-outline-success my-2 my-sm-0" type="submit">Sign in</nuxt-link>
+      </li>
+      <li v-if="$route.path === '/auth/sign-in' " class="nav-item mx-3">
+        <nuxt-link to="/auth/sign-up" tag="button" class="btn nav-btn btn-outline-success my-2 my-sm-0" type="submit">Sign up</nuxt-link>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0 position-relative">
