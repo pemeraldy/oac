@@ -8,8 +8,8 @@ $theme-colors: (
   'light': #c0ccda,
   'dark': #001738,
 );
-html{
-  font-family: 'SFProDisplay';
-}
+// html{
+//   font-family: 'SFProDisplay';
+// }
 @import '~/node_modules/bootstrap/scss/bootstrap.scss';
 @import 'bootstrap-vue/src/index.scss';
