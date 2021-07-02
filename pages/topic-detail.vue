@@ -42,7 +42,7 @@
             >June 12, 2021</span
           >
           <span class="badge badge-pill webster red-pill p-2 ml-2">
-            <img src="~/assets/images/icons/flag.png" alt=""> Flag post</span
+            <img class="mr-1" src="~/assets/images/icons/flag.png" alt=""> Flag post</span
           >
           
         </div>
@@ -106,7 +106,7 @@
           <p>Most days Tracy don't worry u are not alone.</p>
           <div class="post-actions d-flex justify-content-between">
             <span class="badge badge-pill webster red-pill p-2"
-              ><img class="mr-1" src="~/assets/images/icons/flag.png" alt="">Flag comment</span
+              ><img  class="mr-1" src="~/assets/images/icons/flag.png" alt="">Flag comment</span
             >
             <span class="btn btn-primary webster post-reply__btn bg-primary p-2"
               >Reply</span
@@ -136,7 +136,7 @@
               <p>Most days Tracy don't worry u are not alone.</p>
               <div class="post-actions d-flex justify-content-between">
                 <span class="badge badge-pill webster red-pill p-2"
-                  ><img class="mr-1" src="~/assets/images/icons/flag.png" alt="">Flag comment</span
+                  ><img  class="mr-1" src="~/assets/images/icons/flag.png" alt="">Flag comment</span
                 >
                 <span
                   class="btn btn-primary webster post-reply__btn bg-primary p-2"
