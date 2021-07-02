@@ -5,10 +5,10 @@
               <h1>Support Communities</h1>
           </div>
           <div class="row mt-4 mt-md-0">
-              <div class="col-md-10 col-12">
+              <div class="col-md-9 col-12">
                   <div class="d-flex w-100 flex-col border-bottom flex-column flex-md-row align-items-center">
                       <div class="total-topics btn btn-primary d-flex justify-content-center align-items-center">290 topics</div>
-                        <div class="topic-tabs ml-md-auto">
+                        <div class="topic-tabs mt-4 mt-md-0 ml-md-auto">
                             <nav class="nav nav-pills flex-column flex-sm-row">
                                 <a class="flex-sm-fill text-sm-center mx-3 nav-link text-center active" href="#">TRENDING</a>
                                 <a class="flex-sm-fill text-sm-center mx-3 nav-link text-center text-muted" href="#">A - Z</a>
@@ -20,7 +20,7 @@
               </div>
           </div>
           <div class="row mt-4">
-              <div class="col-md-10 col-12">
+              <div class="col-md-9 col-12">
                   <form class="form">
                       <div class="form-group required">                        
                         <input type="text" class="form-control p-4" placeholder="Search community here..." >
@@ -121,6 +121,13 @@ export default {
 @media screen and (max-width: 500px) {
   .comm-heading h1{
       font-size: 34px;
+  }
+  .nav.nav-pills{
+    flex-direction: row !important;
+  }
+  .nav.nav-pills a{
+      padding:2px;
+      font-size: 12px;
   }
 }
 </style>

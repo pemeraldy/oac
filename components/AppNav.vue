@@ -31,8 +31,9 @@
       <i class="text-gray text-muted search-icon position-absolute mr-3 fa fa-search"></i>
     </form>
     <div class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <span class="text-white">Yopee</span>
+        <a class="nav-link dropdown-toggle d-flex justify-content-center" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span style="line-height:40px;" class="text-white">Yopee</span>
+          <span class="avatar mx-3"></span>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Profile</a>
@@ -53,6 +54,16 @@
 }
 .search-icon{
   right:0;
+}
+.dropdown-toggle::after{
+  display: none !important;
+}
+.avatar{
+  width: 40px;
+  height: 40px;
+  background: #ddd;
+  display: inline-block;
+  border-radius: 100%;
 }
 
 /* Responsive */
