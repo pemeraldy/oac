@@ -30,6 +30,17 @@
       <input class="form-control nav-input mr-sm-2" type="search" placeholder="Search" aria-label="Search for health questions">
       <i class="text-gray text-muted search-icon position-absolute mr-3 fa fa-search"></i>
     </form>
+    <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle d-flex justify-content-center" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="avatar mx-2"></span>
+          <span style="line-height:40px;" class="mr-1 text-white">Yopee</span>
+          <i style="line-height:40px;" class="fa fa-chevron-down"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Profile</a>
+          <a class="dropdown-item" href="#">Sign out</a>
+        </div>
+      </div>
   </div>
     </div>
 </nav>
@@ -44,5 +55,20 @@
 }
 .search-icon{
   right:0;
+}
+.dropdown-toggle::after{
+  display: none !important;
+}
+.avatar{
+  width: 40px;
+  height: 40px;
+  background: #ddd;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+  
 }
 </style>
