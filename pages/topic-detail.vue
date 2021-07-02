@@ -42,8 +42,9 @@
             >June 12, 2021</span
           >
           <span class="badge badge-pill webster red-pill p-2 ml-2">
-            <i class="fa fa-flag text-danger"></i> Flag post</span
+            <img src="~/assets/images/icons/flag.png" alt=""> Flag post</span
           >
+          
         </div>
       </div>
 
@@ -63,6 +64,89 @@
           </div>
         </form>
       </div>
+      <div
+        class="d-flex mt-5 justify-content-center justify-content-md-end align-items-center"
+      >
+        <div class="form-group d-flex">
+          <label class="flex-shrink-0 mt-1" for="oldest">Sort by</label>
+          <select id="oldest" class="ml-2 sort-select form-control sort-input">
+            <option selected>Oldest</option>
+            <option>Latest</option>
+          </select>
+        </div>
+        <div class="form-group d-flex ml-4">
+          <label class="flex-shrink-0 mt-1" for="oldest">Page</label>
+          <select id="oldest" class="ml-2 sort-select form-control sort-input">
+            <option selected>1/35</option>
+            <option>2</option>
+          </select>
+        </div>
+      </div>
+      <hr class="hr" />
+      <div class="post">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="">
+            <img
+              class="topic-img"
+              src="~/assets/images/icons/topic-icon.png"
+              alt="topic img"
+            />
+            <img
+              class="ml-3"
+              src="~/assets/images/icons/right-triangle.png"
+              alt=""
+            />
+            <span class="webster topic-img__text ml-2">Soanxious</span>
+          </div>
+          <div>
+            <p class="m-0 webster">Posted May 23, 2021</p>
+          </div>
+        </div>
+        <div class="mt-4 post-content">
+          <p>Most days Tracy don't worry u are not alone.</p>
+          <div class="post-actions d-flex justify-content-between">
+            <span class="badge badge-pill webster red-pill p-2"
+              ><img class="mr-1" src="~/assets/images/icons/flag.png" alt="">Flag comment</span
+            >
+            <span class="btn btn-primary webster post-reply__btn bg-primary p-2"
+              >Reply</span
+            >
+          </div>
+          <!-- Sub post -->
+          <div class="post sub-post p-3 mt-5">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="">
+                <img
+                  class="topic-img"
+                  src="~/assets/images/icons/topic-icon.png"
+                  alt="topic img"
+                />
+                <!-- <img
+              class="ml-3"
+              src="~/assets/images/icons/right-triangle.png"
+              alt=""
+            /> -->
+                <span class="webster topic-img__text ml-2">Soanxious</span>
+              </div>
+              <div>
+                <p class="m-0 webster post-date">Posted May 23, 2021</p>
+              </div>
+            </div>
+            <div class="mt-3 post-content">
+              <p>Most days Tracy don't worry u are not alone.</p>
+              <div class="post-actions d-flex justify-content-between">
+                <span class="badge badge-pill webster red-pill p-2"
+                  ><img class="mr-1" src="~/assets/images/icons/flag.png" alt="">Flag comment</span
+                >
+                <span
+                  class="btn btn-primary webster post-reply__btn bg-primary p-2"
+                  >Reply</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -74,6 +158,25 @@ export default {
 </script>
 
 <style>
+.post.sub-post {
+  background: #f7f7fa;
+  border-radius: 6px;
+  border: 0.8px solid rgba(32, 32, 32, 0.3);
+}
+.post-content {
+  padding-left: 80px;
+}
+.post-reply__btn {
+  width: 110px;
+  height: 40px;
+  border-radius: 25px;
+}
+.hr {
+  border-top: 2px solid #ddd;
+}
+.sort-select {
+  width: 110px;
+}
 .reply-btn {
   border-radius: 25px;
   width: 208px;
@@ -117,18 +220,39 @@ export default {
   width: 100px;
   height: 35px;
   line-height: 17px;
+  font-weight: 100;
 }
 .red-pill {
+  font-weight: 100;
   background: #eb575738;
   width: 100px;
   height: 35px;
   line-height: 17px;
 }
+.sort-input {
+  border-radius: 25px;
+}
 
 @media screen and (max-width: 500px) {
-    .topic-heading{
-        line-height: 36px;
-        font-size: 32px;
-    }
+  .topic-heading {
+    line-height: 36px;
+    font-size: 32px;
+  }
+  .topic-img{
+    width: 30px;
+    height: 30px;
+  }
+  .post-content{
+    padding-left: 44px;
+  }
+  .post-reply__btn {
+    width: 77px;
+    height: 33px;
+    line-height: 12px;
+    border-radius: 25px;
+  }
+  .post-date{
+    font-size: 12px;
+  }
 }
 </style>
