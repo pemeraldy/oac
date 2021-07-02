@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container mt-5">
+    <div class="container mt-5 pb-4">
       <div class="create-post__wrapper">
         <h1 class="heading-sm">Support communities</h1>
         <div class="mt-5">
