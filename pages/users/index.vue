@@ -6,10 +6,10 @@
           <nav aria-label="breadcrumb ">
             <ol class="breadcrumb m-0 p-0">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Topics</li>
+              <li class="breadcrumb-item active" aria-current="page">Users</li>
             </ol>
           </nav>
-          <h3>Topics</h3>
+          <h3>Users</h3>
         </div>
         <div>
           <button class="post-btn__lg btn btn-primary">Create New Topic</button>
@@ -18,14 +18,17 @@
       <div class="row">
         <div class="col-12">
           <div class="d-flex justify-content-end">
+            <div class="form-group required  mr-2">
+              <input class="form-control " placeholder="Search username" type="text">
+            </div>
             <div class="form-group required">
               <select class="form-control sort-select">
-                <option class="webster" value="">Status: Pending</option>
+                <option class="webster" value="">Status: All</option>
               </select>
             </div>
             <div class="form-group required ml-2">
               <select class="form-control sort-select">
-                <option class="webster" value="">Category: All</option>
+                <option class="webster" value="">Role: All</option>
               </select>
             </div>
           </div>
@@ -34,7 +37,7 @@
 
       <div class="row">
         <div class="col-12">
-          <TopicsTable />
+          <UsersTable />
         </div>
       </div>
     </div>
