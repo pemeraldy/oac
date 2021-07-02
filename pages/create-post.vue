@@ -18,7 +18,9 @@
 
               <div class="mt-5">
                   <h3 class="detail-heading">Details</h3>
-                  <text-area></text-area>
+                  <div>
+                      <TextEditor />
+                  </div>
               </div>
           </div>
       </div>
@@ -27,7 +29,8 @@
 
 <script>
 export default {
-    layout: 'user'
+    layout: 'user',
+    
 }
 </script>
 

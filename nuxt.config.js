@@ -22,11 +22,15 @@ export default {
     '~/assets/stylesheets/fontawesome/css/font-awesome.min.css',
     // '~/assets/stylesheets/styles-admin.scss',
     '~/assets/scss/custom.scss',
-    '~/layouts/global.css'
+    '~/layouts/global.css',
+    'quill/dist/quill.snow.css',
+    'quill/dist/quill.bubble.css',
+    'quill/dist/quill.core.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
+  plugins: [    
+    { src: "~plugins/vue-quill-editor.js", ssr: false },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
