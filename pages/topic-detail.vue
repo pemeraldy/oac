@@ -124,6 +124,7 @@ export default {
   height: 35px;
   line-height: 17px;
 }
+
 @media screen and (max-width: 500px) {
     .topic-heading{
         line-height: 36px;
