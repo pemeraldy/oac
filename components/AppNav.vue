@@ -32,8 +32,9 @@
     </form>
     <div class="nav-item dropdown">
         <a class="nav-link dropdown-toggle d-flex justify-content-center" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <span style="line-height:40px;" class="text-white">Yopee</span>
-          <span class="avatar mx-3"></span>
+          <span class="avatar mx-2"></span>
+          <span style="line-height:40px;" class="mr-1 text-white">Yopee</span>
+          <i style="line-height:40px;" class="fa fa-chevron-down"></i>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Profile</a>

@@ -10,10 +10,10 @@
                       <div class="total-topics btn btn-primary d-flex justify-content-center align-items-center">290 topics</div>
                         <div class="topic-tabs mt-4 mt-md-0 ml-md-auto">
                             <nav class="nav nav-pills flex-column flex-sm-row">
-                                <a class="flex-sm-fill text-sm-center mx-3 nav-link text-center active" href="#">TRENDING</a>
-                                <a class="flex-sm-fill text-sm-center mx-3 nav-link text-center text-muted" href="#">A - Z</a>
-                                <a class="flex-sm-fill text-sm-center mx-3 nav-link text-center text-muted" href="#">BY TOPIC</a>
-                                <a class="flex-sm-fill text-sm-center mx-3 nav-link text-center text-muted" href="#">OTHERS</a>
+                                <a @click="changeSortType('TRENDING')" class="flex-sm-fill text-sm-center mx-3 nav-link text-center active" href="#">TRENDING</a>
+                                <a @click="changeSortType('AZ')" class="flex-sm-fill text-sm-center mx-3 nav-link text-center text-muted" href="#">A - Z</a>
+                                <a @click="changeSortType('TOPIC')" class="flex-sm-fill text-sm-center mx-3 nav-link text-center text-muted" href="#">BY TOPIC</a>
+                                <a @click="changeSortType('OTHERS')" class="flex-sm-fill text-sm-center mx-3 nav-link text-center text-muted" href="#">OTHERS</a>
                             </nav>
                         </div>
                   </div>
@@ -34,7 +34,7 @@
                       </div>
                   </div>
 
-                  <div class="mt-5">
+                  <div v-if="sortType === 'AZ'" class="mt-5">
                       <Letters />
                   </div>
                     
@@ -87,7 +87,17 @@
 
 <script>
 export default {
- layout: 'user'
+ layout: 'user',
+ data(){
+     return {
+         sortType: '',
+     }
+ },
+ methods:{
+     changeSortType(type){
+         this.sortType = type
+     }
+ }
 }
 </script>
 
