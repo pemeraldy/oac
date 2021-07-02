@@ -23,7 +23,7 @@
                 <div class="col-md-6 col-12 form-group">
                   <label for="">Event date</label>
                   <input
-                    type="text"
+                    type="date"
                     class="form-control"
                     placeholder="Enter your event date here"
                   />
