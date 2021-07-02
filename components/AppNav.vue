@@ -30,6 +30,15 @@
       <input class="form-control nav-input mr-sm-2" type="search" placeholder="Search" aria-label="Search for health questions">
       <i class="text-gray text-muted search-icon position-absolute mr-3 fa fa-search"></i>
     </form>
+    <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="text-white">Yopee</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Profile</a>
+          <a class="dropdown-item" href="#">Sign out</a>
+        </div>
+      </div>
   </div>
     </div>
 </nav>
@@ -44,5 +53,10 @@
 }
 .search-icon{
   right:0;
+}
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+  
 }
 </style>

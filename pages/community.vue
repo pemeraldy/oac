@@ -4,9 +4,9 @@
           <div class="comm-heading">
               <h1>Support Communities</h1>
           </div>
-          <div class="row">
+          <div class="row mt-4 mt-md-0">
               <div class="col-md-10 col-12">
-                  <div class="d-flex w-100 flex-col flex-column flex-md-row align-items-center">
+                  <div class="d-flex w-100 flex-col border-bottom flex-column flex-md-row align-items-center">
                       <div class="total-topics btn btn-primary d-flex justify-content-center align-items-center">290 topics</div>
                         <div class="topic-tabs ml-md-auto">
                             <nav class="nav nav-pills flex-column flex-sm-row">
@@ -34,6 +34,10 @@
                       </div>
                   </div>
 
+                  <div class="mt-5">
+                      <Letters />
+                  </div>
+                    
                   <!-- list of trendings -->
                   <div class="mt-5">
                       <div class="topics">
@@ -110,5 +114,10 @@ export default {
         color: #119859
     }
 }
-
+/* Responsive */
+@media screen and (max-width: 500px) {
+  .comm-heading h1{
+      font-size: 34px;
+  }
+}
 </style>
