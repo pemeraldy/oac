@@ -11,7 +11,10 @@
             <input type="password" class="form-control" id="userpassword">
         </div>
         <div class="mt-4">
-            <button type="submit" class="btn btn-block btn-primary">Login</button>
+            <button type="submit" class="btn btn-block btn-primary">
+                Login
+                <!-- <i class="fa fa-arrow-right"></i> -->
+            </button>
         </div>
 
         <p class="text-center my-4">
@@ -19,7 +22,7 @@
         </p>
 
         <div class="mt-4">
-            <button type="submit" class="btn btn-block btn-primary">Reset password</button>
+            <button type="submit" class="btn btn-block btn-outline-dark">Sign Up</button>
         </div>
     </form>
   </div>

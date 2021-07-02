@@ -1,7 +1,7 @@
 <template>
   <div>
       <div class="container mt-5">
-          <div class="">
+          <div class="comm-heading">
               <h1>Support Communities</h1>
           </div>
           <div class="row">
@@ -88,6 +88,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.comm-heading{
+    font-size: 26px;
+    font-weight: 500;
+}
 .total-topics.btn{
     border-radius: 90px;
     width: 102px;
@@ -101,7 +105,7 @@ export default {
 .nav.nav-pills a{
     background: transparent;
     &.active{
-        border-bottom: 1px solid #119859;
+        border-bottom: 2px solid #119859;
         border-radius: 0;
         color: #119859
     }
