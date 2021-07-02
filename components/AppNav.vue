@@ -11,7 +11,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto d-flex align-items-center">
       <li class="nav-item mx-3 active">
-        <a class="nav-link text-white" href="#">Events <span class="sr-only">(current)</span></a>
+        <nuxt-link to="/events" class="nav-link text-white" href="#">Events <span class="sr-only">(current)</span></nuxt-link>
       </li>
       <li class="nav-item mx-3">
         <a class="nav-link text-white" href="#">Knowledge Repository</a>
