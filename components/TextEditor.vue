@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="editor">
     <div class="quill-editor" 
         :content="content"
         @change="onEditorChange($event)"
@@ -15,13 +15,20 @@
   export default {
     data () {
       return {
-        content: '<p>I am Example</p>',
+        content: '',
         editorOption: {
           // some quill options
           modules: {
             toolbar: [
-              ['bold', 'italic', 'underline', 'strike'],
-              ['blockquote', 'code-block']
+                [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
+                [{ 'font': [] }],
+                ['bold', 'italic', 'underline', 'strike'],
+                ['blockquote', 'code-block'],
+                [{ 'list': 'ordered' }, { 'list': 'bullet' }, { 'align': [] }],
+                [{ 'color': [] }, { 'background': [] }],
+                ['clean'],
+                ['link', 'image', 'video'],
+                [{ 'direction': 'rtl' }]
             ]
           }
         }
@@ -30,7 +37,7 @@
     mounted() {
       console.log('app init, my quill insrance object is:', this.myQuillEditor)
       setTimeout(() => {
-        this.content = 'i am changed'
+        this.content = 'Type your discussion here...'
       }, 3000)
     },
     methods: {
@@ -51,6 +58,12 @@
   }
 </script>
 
-<style>
-
+<style scoped>
+    #editor .ql-toolbar.ql-snow{        
+        border-top-left-radius: 8px !important;
+        border-top-right-radius: 8px !important;
+    }
+    #editor .ql-editor{
+        height: 500px !important;
+    }
 </style>

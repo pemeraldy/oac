@@ -24,7 +24,7 @@ export default {
     '~/assets/scss/custom.scss',
     '~/layouts/global.css',
     'quill/dist/quill.snow.css',
-    'quill/dist/quill.bubble.css',
+    // 'quill/dist/quill.bubble.css',
     'quill/dist/quill.core.css',
   ],
 
