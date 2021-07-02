@@ -16,7 +16,7 @@
       <label for="message">Message</label>
       <textarea class="form-control" name="" id="" placeholder="Type in your message or feedback here" rows="5"></textarea>
     </div>
-    <div class="mt-4 w-100">
+    <div class=" w-100">
         <button type="submit" class="btn submit-btn btn-block btn-primary">Get in touch</button>
     </div>
   </form>
