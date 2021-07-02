@@ -27,7 +27,7 @@
                     </div>
                   </form>
                     
-                  <div class="rounded w-100 bg-secondary mt-3 create-discussion p-4">
+                  <div class="rounded w-100 mt-3 create-discussion p-4">
                       <div class="d-flex flex-column align-items-center justif flex-md-row">
                           <p class="m-0">Can’t find what you’re looking for?</p>
                           <div class="btn btn-primary ml-md-3">Create a new discussion</div>
@@ -113,6 +113,9 @@ export default {
         border-radius: 0;
         color: #119859
     }
+}
+.create-discussion{
+    background: #F7F7FA;
 }
 /* Responsive */
 @media screen and (max-width: 500px) {
